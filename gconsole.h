@@ -6,7 +6,7 @@
 
 #include <ui_mainwindow.h>
 //#include "gparcer/sgcode.h"
-#include <sgcode.h>
+#include <gparcer/sgcode.h>
 #include "exchange/threadexchange.h"
 #include "gparcer/comdata.h"
 #include "profiles/profile.h"
