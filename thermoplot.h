@@ -11,7 +11,7 @@
 #include <QString>
 #include <QTimer>
 
-#include "/home/walery/qtcustomplot/qcustomplot/qcustomplot.h"
+#include "qcustomplot.h"
 
 #include "exchange/thermothread.h"
 
