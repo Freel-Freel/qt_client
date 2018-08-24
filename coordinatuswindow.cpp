@@ -2,7 +2,7 @@
 #include "coordinatuswindow.h"
 #include "myglobal.h"
 #include "gconsole.h"
-#include "links/exchange/eModelstate.h"
+#include "links/eModelstate.h"
 
 
 CoordinatusWindow::CoordinatusWindow(QObject *parent) : QObject(parent)
@@ -156,4 +156,3 @@ QString str = QString("%1 (%2)").arg(gconsole->getPath_mm(X_AXIS,status->coordin
 
      uic->label_contiCnt->setText(QString("%1").arg(status->instrument2_parameter) );
 }
-

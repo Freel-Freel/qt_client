@@ -9,8 +9,8 @@
 //#include "links/Status_t.h"
 //#include "usbexchange.h"
 
-#include "links/exchange/eModelstate.h"
-#include <gcode-lexer.h>
+#include "links/eModelstate.h"
+#include <gparcer/gcode-lexer.h>
 
 #include "gparcer/lexer.h"
 
@@ -342,7 +342,3 @@ GConsole::on_textEdit_command_cursorPositionChanged()
     oldBlockNumber = bnumber;
 
 }
-
-
-
-

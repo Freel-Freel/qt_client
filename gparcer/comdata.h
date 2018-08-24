@@ -4,7 +4,7 @@
 #include <QObject>
 #include <QChar>
 
-#include <sgcode.h>
+#include <sgparcer/gcode.h>
 
 #include "links/ComDataReq_t.h"
 //#include "gparcer/sgcode.h"

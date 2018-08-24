@@ -1,7 +1,7 @@
 #ifndef LEXER_H
 #define LEXER_H
 
-#include <gcode-lexer.h>
+#include <gparcer/gcode-lexer.h>
 
 #include <QString>
 
